@@ -6,3 +6,11 @@ spring:
       uri: http://localhost:8888
   profiles:
     active: production
+eureka:
+  client:
+    registerWithEureka: true
+    fetchRegistry: true
+    server:
+      waitTimeInMsWhenSyncEmpty: 0
+    serviceUrl:
+      defaultZone: http://localhost:8888/eureka/
