@@ -2,3 +2,4 @@ build
 out
 spring_cloud_client.*
 .gradle
+.idea
